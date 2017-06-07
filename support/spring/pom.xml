@@ -27,6 +27,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
+    <groupId>com.bop.org.apache.shiro</groupId>
     <artifactId>shiro-spring</artifactId>
     <name>Apache Shiro :: Support :: Spring</name>
     <packaging>bundle</packaging>
@@ -91,7 +92,7 @@
                         <Import-Package>
                             org.apache.shiro*;version="${shiro.osgi.importRange}",
                             org.aopalliance*;version="[1.0.0, 2.0.0)",
-                            org.springframework*;version="[2.5.0, 4.0.0)",
+                            org.springframework*;version="[2.5.0, 5.0.0)",
                             *
                         </Import-Package>
                     </instructions>
